@@ -1,0 +1,27 @@
+
+@import "../../abstracts/mixins";
+@import "../../abstracts/variables";
+
+.Header {
+    @include flex-center;
+    padding-top: 2rem;
+    text-decoration: none;
+  }
+  .LiHeader{
+    color:$color-quinto;
+    text-decoration: none;
+    list-style:none;
+  }
+  .textDecoration{
+    list-style:none;
+    text-decoration: none;
+  }
+ 
+  .liVegan{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .boxeado{
+    background-color: red;
+  }
