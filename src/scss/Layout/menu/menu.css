@@ -1,0 +1,28 @@
+.img {
+  width: 35%;
+  height: 25vh;
+}
+
+.text {
+  color: #ece6e6;
+}
+
+.carta {
+  width: 90%;
+  height: auto;
+  margin-left: 35px;
+}
+
+.margin {
+  margin-left: 35px;
+}
+
+.megina {
+  padding-left: 35px;
+}
+
+.cartax {
+  width: 100%;
+  height: auto;
+  padding-right: 35px;
+}/*# sourceMappingURL=menu.css.map */

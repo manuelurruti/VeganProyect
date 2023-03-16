@@ -1,0 +1,27 @@
+@import "../../abstracts/mixins";
+@import "../../abstracts/variables";
+
+.img{
+    width:35%;
+    height: 25vh;
+}
+.text{
+    color:$color-quinto
+}
+.carta{
+    width: 90%;
+    height: auto;
+    margin-left:35px;
+}
+.margin{
+    margin-left: 35px;
+}
+.megina{
+    padding-left: 35px;
+}
+.cartax{
+    width: 100%;
+    height: auto;
+    padding-right:35px;
+}
+

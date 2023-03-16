@@ -11,12 +11,9 @@
   justify-content: space-evenly;
   align-items: center;
 }
-.divMain {
-padding-top:25px
-}
 
 .letter {
   color: #ece6e6;
   width: 70vh;
-  padding-top: 10%;
+  padding-top: 25%;
 }/*# sourceMappingURL=HomePage.css.map */
