@@ -1,27 +1,81 @@
 @import "../../abstracts/mixins";
 @import "../../abstracts/variables";
 
-.img{
-    width:35%;
-    height: 25vh;
-}
+
 .text{
     color:$color-quinto
 }
 .carta{
     width: 90%;
     height: auto;
-    margin-left:35px;
+    padding-left:35px;
+    padding-top: 100px;
+    flex-direction: row;
+    .img{
+        width:50%;
+        border-radius: 35px;
+    }
 }
-.margin{
-    margin-left: 35px;
-}
+
 .megina{
     padding-left: 35px;
 }
+
 .cartax{
     width: 100%;
-    height: auto;
+    height: 100%;
     padding-right:35px;
+    padding-top: 100px;
+    flex-direction: row-reverse;
+    .img{
+        width:45%;
+        
+        border-radius: 35px;
+    }
+    
 }
 
+
+  
+
+.CardMenu {
+    height: 100%;
+    width: 100%;
+  }
+  
+
+
+  @media only screen and (min-width: 0px) and (max-width: 1023px){
+   .carta{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    padding-left:35px;
+ 
+    padding-top: 100px;
+   
+    .asd{
+        padding-top: 35px;
+    }
+    .img{
+        width:100%
+    }
+   }
+   .cartax{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    padding-left:35px;
+    padding-top: 100px;
+   
+    .xd{
+        padding-top: 35px;
+    }
+    .img{
+        width:100%
+    }
+   }
+   
+   }

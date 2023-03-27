@@ -4,11 +4,11 @@ import "../../scss/Layout/menu/menu.css";
 export const CardMenu = () => {
   return (
     <>
-      <div className="d-flex flex-row carta">
+      <div className="d-flex carta">
         <img src="../../veganx.jpg" className="img" />
-        <div className="d-flex flex-column align-items-center">
+        <div className="d-flex flex-column align-items-center asd">
           <h3 className="text">asdasd</h3>
-          <p className="text margin">
+          <p className="text megina">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nihil
             dicta repudiandae ratione excepturi, hic repellat quo at ex error
             maxime nemo eius obcaecati autem deserunt id necessitatibus culpa
@@ -19,7 +19,7 @@ export const CardMenu = () => {
       <br />
       <br />
 
-      <div className="d-flex flex-row-reverse justify-content-end cartax">
+      <div className="d-flex cartax">
         <img src="../../veganx.jpg" className="img" />
         <div className="d-flex flex-column align-items-center xd">
         <h3 className="text">asdasd</h3>

@@ -36,9 +36,21 @@ li {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
+  .Headerx {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+  }
   .Header {
     display: flex;
     flex-direction: column;
+  }
+  .LiHeader {
+    margin: 15px;
+  }
+  .ulHeader {
+    display: flex;
+    justify-content: flex-start;
   }
 }
 .HomePage {
@@ -46,24 +58,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 80%;
-  height: 100vh;
-}
-
-.divMain {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.letter {
-  color: #ece6e6;
-  width: 70vh;
-  padding-top: 25%;
-}
-
-.img {
-  width: 35%;
-  height: 25vh;
+  height: 100%;
 }
 
 .text {
@@ -71,13 +66,15 @@ li {
 }
 
 .carta {
-  width: 90%;
-  height: auto;
-  margin-left: 35px;
+  width: 100%;
+  height: 100%;
+  padding-right: 35px;
+  padding-top: 100px;
+  flex-direction: row;
 }
-
-.margin {
-  margin-left: 35px;
+.carta .img {
+  width: 50%;
+  border-radius: 35px;
 }
 
 .megina {
@@ -86,6 +83,44 @@ li {
 
 .cartax {
   width: 100%;
-  height: auto;
+  height: 100%;
   padding-right: 35px;
+  padding-top: 100px;
+  flex-direction: row-reverse;
+}
+.cartax .img {
+  width: 45%;
+  border-radius: 35px;
+}
+
+.CardMenu {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1023px) {
+  .carta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .carta .asd {
+    padding-top: 35px;
+  }
+  .carta .img {
+    width: 94%;
+  }
+  .cartax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cartax .xd {
+    padding-top: 35px;
+  }
+  .cartax .img {
+    width: 94%;
+  }
 }/*# sourceMappingURL=index.css.map */

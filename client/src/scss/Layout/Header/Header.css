@@ -30,7 +30,8 @@
     flex-direction: row-reverse;
   }
   .Header {
-    align-items: start;
+    display: flex;
+    flex-direction: column;
   }
   .LiHeader {
     margin: 15px;

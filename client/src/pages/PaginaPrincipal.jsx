@@ -11,6 +11,7 @@ export const PaginaPrincipal = () => {
  </div>
 <Lorem/>
 
+
     </div>
   )
 }
