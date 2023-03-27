@@ -21,7 +21,7 @@ import LocalDiningIcon from '@mui/icons-material/LocalDining';
 import { grey } from '@mui/material/colors';
 
 
-const drawerWidth = 240;
+const drawerWidth = 300;
 const width = 0;
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
