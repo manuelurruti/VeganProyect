@@ -3,17 +3,4 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 80%;
-  height: 100vh;
-}
-
-.divMain {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.letter {
-  color: #ece6e6;
-  width: 70vh;
-  padding-top: 25%;
 }/*# sourceMappingURL=HomePage.css.map */

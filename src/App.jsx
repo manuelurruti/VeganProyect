@@ -1,7 +1,6 @@
 
-
-
 import { MyRoutes } from './routers/MyRoutes'
+import "./scss/Layout/EstilosPagPrincipal/HomePage.css"
 
 function App() {
  

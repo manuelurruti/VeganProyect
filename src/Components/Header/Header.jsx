@@ -9,12 +9,12 @@ import { BurguerMenu } from '../BurguerMenu/BurguerMenu'
 export const Header = () => {
   return (
     <> 
-    <div >
+    <div className="Headerx">
       <ul className="Header">
-    <Link to={"/Menu"} className="textDecoration"> <li className='LiHeader'> Menu</li></Link>
-    <Link to={"/"} className="textDecoration"> <div className='liVegan'><li className='LiHeader'>Vegan</li></div> </Link>
-
    <BurguerMenu/>
+    <Link to={"/"} className="textDecoration"> <div className='liVegan'><li className='LiHeader'>Vegan</li></div> </Link>
+    <Link to={"/Menu"} className="textDecoration"> <li className='LiHeader'> Menu</li></Link>
+
     </ul>
 
 

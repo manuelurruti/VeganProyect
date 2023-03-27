@@ -4,7 +4,7 @@ import "../../scss/Layout/EstilosPagPrincipal/HomePage.css"
 
 export const Icon = () => {
   return (
-    <div class="divMainx">
+    <div className="divMainx">
         <img src='../../LogoBlanco.svg'/>
     </div>
   )

@@ -35,6 +35,12 @@ li {
   justify-content: center;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .Header {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .HomePage {
   background-image: url("../../../salado.jpg");
   background-repeat: no-repeat;
@@ -53,4 +59,33 @@ li {
   color: #ece6e6;
   width: 70vh;
   padding-top: 25%;
+}
+
+.img {
+  width: 35%;
+  height: 25vh;
+}
+
+.text {
+  color: #ece6e6;
+}
+
+.carta {
+  width: 90%;
+  height: auto;
+  margin-left: 35px;
+}
+
+.margin {
+  margin-left: 35px;
+}
+
+.megina {
+  padding-left: 35px;
+}
+
+.cartax {
+  width: 100%;
+  height: auto;
+  padding-right: 35px;
 }/*# sourceMappingURL=index.css.map */

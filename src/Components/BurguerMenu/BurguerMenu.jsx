@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import MuiAppBar from '@mui/material/AppBar';
 import WorkIcon from '@mui/icons-material/Work';
-
+import "./burguer.css"
 import List from '@mui/material/List';
 
 import IconButton from '@mui/material/IconButton';
@@ -22,6 +22,7 @@ import { grey } from '@mui/material/colors';
 
 
 const drawerWidth = 240;
+const width = 0;
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
   ({ theme, open }) => ({
@@ -128,7 +129,7 @@ export const BurguerMenu = () => {
       </Main>
       <Drawer
   sx={{
-    width: drawerWidth,
+    width: width,
     flexShrink: 0,
     '& .MuiDrawer-paper': {
       width: drawerWidth,
