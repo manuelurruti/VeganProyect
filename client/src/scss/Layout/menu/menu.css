@@ -35,6 +35,14 @@
   width: 100%;
 }
 
+.HomePage {
+  background-image: url("../../../salado.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  height: 100%;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 1023px) {
   .carta {
     display: flex;

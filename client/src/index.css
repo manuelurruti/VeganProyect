@@ -44,6 +44,7 @@ li {
   .Header {
     display: flex;
     flex-direction: column;
+    align-items: start;
   }
   .LiHeader {
     margin: 15px;
@@ -53,12 +54,32 @@ li {
     justify-content: flex-start;
   }
 }
-.HomePage {
-  background-image: url("../../../salado.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 80%;
-  height: 100%;
+.color {
+  color: #ece6e6;
+  padding-top: 145px;
+}
+
+.asd {
+  padding-top: 35px;
+}
+
+.fontHome {
+  display: flex;
+  color: #ece6e6;
+  font-size: 40px;
+  padding: 230px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 950px) {
+  .fontHome {
+    display: flex;
+    color: #ece6e6;
+    font-size: 30px;
+    padding: 30px;
+  }
+}
+.div100 {
+  height: 100vh;
 }
 
 .text {
@@ -66,9 +87,9 @@ li {
 }
 
 .carta {
-  width: 100%;
-  height: 100%;
-  padding-right: 35px;
+  width: 90%;
+  height: auto;
+  padding-left: 35px;
   padding-top: 100px;
   flex-direction: row;
 }
@@ -98,29 +119,41 @@ li {
   width: 100%;
 }
 
+.HomePage {
+  background-image: url("../../../salado.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  height: 100%;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 1023px) {
   .carta {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 90%;
+    height: auto;
+    padding-left: 35px;
+    padding-top: 100px;
   }
   .carta .asd {
     padding-top: 35px;
   }
   .carta .img {
-    width: 94%;
+    width: 100%;
   }
   .cartax {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 90%;
+    height: auto;
+    padding-left: 35px;
+    padding-top: 100px;
   }
   .cartax .xd {
     padding-top: 35px;
   }
   .cartax .img {
-    width: 94%;
+    width: 100%;
   }
 }/*# sourceMappingURL=index.css.map */

@@ -27,11 +27,13 @@
       display:flex;
       justify-content: flex-end;
       flex-direction: row-reverse;
+      
           
     }
     .Header{
       display: flex;
       flex-direction: column;
+      align-items: start;
     }
     .LiHeader{
       margin:15px;

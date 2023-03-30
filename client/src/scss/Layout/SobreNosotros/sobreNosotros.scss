@@ -1,0 +1,8 @@
+@import "../../abstracts/mixins";
+@import "../../abstracts/variables";
+*{
+    color:$color-quinto
+}
+.div100{
+    height: 100vh;
+}

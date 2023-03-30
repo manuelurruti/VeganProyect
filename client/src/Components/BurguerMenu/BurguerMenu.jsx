@@ -6,7 +6,7 @@ import MuiAppBar from '@mui/material/AppBar';
 import WorkIcon from '@mui/icons-material/Work';
 import "./burguer.css"
 import List from '@mui/material/List';
-
+import { Link } from 'react-router-dom';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
@@ -23,6 +23,13 @@ import { grey } from '@mui/material/colors';
 
 const drawerWidth = 300;
 const width = 0;
+
+
+const menuItems = [
+  { text: "Acerca de nosotros", url: "/AcercaDeNosotros", icon: <EmojiPeopleIcon /> },
+  { text: "Recetas Vegan", url: "/menu", icon: <LocalDiningIcon /> },
+  { text: "Trabaja con nuestro equipo!", url: "/work-with-us", icon: <WorkIcon /> }
+];
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
   ({ theme, open }) => ({
@@ -138,7 +145,7 @@ export const BurguerMenu = () => {
     },
   }}
   variant="persistent"
-  anchor="right"
+  anchor="left"
   open={open}
 >
         <DrawerHeader >
@@ -146,19 +153,21 @@ export const BurguerMenu = () => {
             {theme.direction === 'rtl' ? <ChevronLeftIcon  /> : <ChevronRightIcon />}
           </IconButton>
         </DrawerHeader>
-       
-        <List >
-          {['Acerca de nosotros', 'Recetas Vegan', 'Trabaja con nuestro equipo!'].map((text, x) => (
-            <ListItem key={text} disablePadding>
-              <ListItemButton>
-                <ListItemIcon>
-                  {x === 0 ? <EmojiPeopleIcon /> : x === 1 ? <LocalDiningIcon /> : <WorkIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItemButton>
-            </ListItem>
-          ))}
-        </List>
+       <List>
+  {menuItems.map(({ text, url, icon }) => (
+    <ListItem key={text} disablePadding>
+      <ListItemButton
+        component={Link}
+        to={url}
+        sx={{ '&:hover': { color: 'white !important' } }}
+      >
+        <ListItemIcon>{icon}</ListItemIcon>
+        <ListItemText primary={text} />
+      </ListItemButton>
+    </ListItem>
+  ))}
+</List>
+
       </Drawer>
     </Box>
   );
