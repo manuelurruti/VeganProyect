@@ -3,6 +3,37 @@
 *{
     color:$color-quinto
 }
-.div100{
-    height: 100vh;
+.centering{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.imgSize{
+    height: 250px;
+    width: 250px;
+    border-radius: 3%;
+}
+.imagen{
+    height: 500px;
+    width: 800px;
+}
+@media only screen and (min-width: 0px) and (max-width: 1050px){
+    .centering{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .columna{
+        display:flex;
+        flex-direction: column;
+       
+    }
+    .imagen{
+        height: 100%;
+        width: 100%;
+    }
+    .textMargin{
+        padding:50px
+    }
 }
