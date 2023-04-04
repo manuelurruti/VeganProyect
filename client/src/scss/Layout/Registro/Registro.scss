@@ -1,0 +1,32 @@
+@import "../../abstracts/mixins";
+@import "../../abstracts/variables";
+.imgStyle {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+
+}
+.bgColor{
+  background-color: $color-secundario ;
+}
+.btn-color{
+  background-color: $color-primario;
+}
+.btn-color:hover{
+  background-color: $color-primario;
+}
+.bg-input-color{
+  background-color: $color-quinto ;
+  color:white
+}
+
+.form-outline .form-control.form-control-lg~.form-label{
+padding-top: 1rem;
+color: $color-cuaternario;
+
+}
+@media only screen and (min-width: 0px) and (max-width: 768px){
+  .displayrow{
+   width: 100%;
+    flex-direction: column-reverse ;
+  }
+}

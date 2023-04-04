@@ -1,0 +1,32 @@
+.div1009 {
+  height: 83.5vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 125px;
+  background-color: #626E60;
+  border-radius: 15px;
+  width: 80%;
+}
+
+.emailadd {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.button {
+  background-color: #945D60;
+}
+
+.button:hover {
+  background-color: #945D60;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .form {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Login.css.map */

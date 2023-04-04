@@ -1,0 +1,33 @@
+.imgStyle {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.bgColor {
+  background-color: #626E60;
+}
+
+.btn-color {
+  background-color: #945D60;
+}
+
+.btn-color:hover {
+  background-color: #945D60;
+}
+
+.bg-input-color {
+  background-color: #ece6e6;
+  color: white;
+}
+
+.form-outline .form-control.form-control-lg ~ .form-label {
+  padding-top: 1rem;
+  color: #3c3c3c;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .displayrow {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+}/*# sourceMappingURL=Registro.css.map */

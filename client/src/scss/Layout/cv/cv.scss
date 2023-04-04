@@ -1,0 +1,19 @@
+@import "../../abstracts/mixins";
+@import "../../abstracts/variables";
+.divExtend{
+    height: 83vh;
+
+   
+}
+.bgcolour{
+    background-color: $color-secundario;
+    height: 60vh;
+}
+.imgimg{
+    height: 250px;
+    width: 250px;
+ 
+}
+.parraf{
+    padding-top: 55px;
+}

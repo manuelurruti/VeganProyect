@@ -19,6 +19,8 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
 import LocalDiningIcon from '@mui/icons-material/LocalDining';
 import { grey } from '@mui/material/colors';
+import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 
 const drawerWidth = 300;
@@ -26,9 +28,11 @@ const width = 0;
 
 
 const menuItems = [
+  { text: "Iniciar sesion", url: "/Login", icon: <AccountCircleIcon /> },
+  { text: "Registrate", url: "/Register", icon:<AddCircleOutlineIcon/> },
   { text: "Acerca de nosotros", url: "/AcercaDeNosotros", icon: <EmojiPeopleIcon /> },
   { text: "Recetas Vegan", url: "/menu", icon: <LocalDiningIcon /> },
-  { text: "Trabaja con nuestro equipo!", url: "/work-with-us", icon: <WorkIcon /> }
+  { text: "Trabaja con nuestro equipo!", url: "/Cv", icon: <WorkIcon /> }
 ];
 
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
